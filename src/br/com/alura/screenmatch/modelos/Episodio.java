@@ -7,7 +7,6 @@ public class Episodio implements Classificavel {
     private String nome;
     private Serie serie;
     private int totalVisualicoes;
-
     public int getNumero() {
         return numero;
     }
@@ -27,7 +26,6 @@ public class Episodio implements Classificavel {
     public Serie getSerie() {
         return serie;
     }
-
     public void setSerie(Serie serie) {
         this.serie = serie;
     }
